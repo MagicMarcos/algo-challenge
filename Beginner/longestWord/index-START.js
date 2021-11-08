@@ -3,11 +3,8 @@ Given a string of text, write an algorithm that returns the text received in a r
 E.g reverseString('algorithms') // should return 'smhtirogla'
 */
 
-
-
 function longestWord(text) {
-    // Code goes here
+  return text.split('').reduce((acc, char) => char + acc);
 }
 
-
-module.exports = longestWord
+module.exports = longestWord;
